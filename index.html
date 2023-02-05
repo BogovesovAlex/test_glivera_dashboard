@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img
+          class="sidebar-image"
+          src="images/logo.svg"
+          alt="logo_dashboard"
+          class="logo"
+        />
+        <h1>Dashboard <span>v.01</span></h1>
+      </div>
+      <nav class="sidebar-nav">
+        <a class="menu-item" href="#">
+          <img src="images/icon_dashboard.svg" alt="icon_dashboard" />
+          <p>Dashboard</p>
+        </a>
+        <a class="menu-item item-arrow" href="#">
+          <img src="images/icon_product.svg" alt="icon_product" />
+          <p>Product</p>
+        </a>
+        <a class="menu-item active" href="#">
+          <img src="images/icon_customers.svg" />
+          <p>Customers</p>
+        </a>
+        <a class="menu-item item-arrow" href="#">
+          <img src="images/icon_income.svg" />
+          <p>Income</p>
+        </a>
+        <a class="menu-item item-arrow" href="#">
+          <img src="images/icon_promote.svg" />
+          <p>Promote</p>
+        </a>
+        <a class="menu-item item-arrow" href="#">
+          <img src="images/icon_help.svg" />
+          <p>Help</p>
+        </a>
+      </nav>
+      <div class="sidebar-footer">
+        <img src="images/photo_manager.png" alt="evano" />
+        <div>
+          <p class="employee-name">Evano</p>
+          <p class="employee-position">Project Manager</p>
+        </div>
+      </div>
+    </aside>
+    <main class="main">
+      <h2 class="main-title">Hello Evano 👋🏼,</h2>
+      <div class="main-content">
+        <div class="table">
+          <div class="table-header">
+            <div>
+              <p class="table-title">All Customers</p>
+              <p class="table-description">Active Members</p>
+            </div>
+            <input type="text" placeholder="Search" />
+          </div>
+          <ul class="table-content">
+            <li>
+              <span>Customer Name</span>
+              <span>Company</span>
+              <span>Phone Number</span>
+              <span>Email</span>
+              <span>Country</span>
+              <span>Status</span>
+            </li>
+            <li>
+              <span>Jane Cooper</span>
+              <span>Microsoft</span>
+              <span>(225) 555-0118</span>
+              <span>jane@microsoft.com</span>
+              <span>United States</span>
+              <button class="active">Active</button>
+            </li>
+            <li>
+              <span>Floyd Miles</span>
+              <span>Yahoo</span>
+              <span>(205) 555-0100</span>
+              <span>floyd@yahoo.com</span>
+              <span>Kiribati</span>
+              <button class="inactive">Inactive</button>
+            </li>
+            <li>
+              <span>Ronald Richards</span>
+              <span>Adobe</span>
+              <span>(302) 555-0107</span>
+              <span>ronald@adobe.com</span>
+              <span>Israel</span>
+              <button class="inactive">Inactive</button>
+            </li>
+            <li>
+              <span>Marvin McKinney</span>
+              <span>Tesla</span>
+              <span>(252) 555-0126</span>
+              <span>marvin@tesla.com</span>
+              <span>Iran</span>
+              <button class="active">Active</button>
+            </li>
+            <li>
+              <span>Jerome Bell</span>
+              <span>Google</span>
+              <span>(629) 555-0129</span>
+              <span>jerome@google.com</span>
+              <span>Réunion</span>
+              <button class="active">Active</button>
+            </li>
+            <li>
+              <span>Kathryn Murphy</span>
+              <span>Microsoft</span>
+              <span>(406) 555-0120</span>
+              <span>kathryn@microsoft.com</span>
+              <span>Curaçao</span>
+              <button class="active">Active</button>
+            </li>
+            <li>
+              <span>Jacob Jones</span>
+              <span>Yahoo</span>
+              <span>(208) 555-0112</span>
+              <span>jacob@yahoo.com</span>
+              <span>Brazil</span>
+              <button class="active">Active</button>
+            </li>
+            <li>
+              <span>Kristin Watson</span>
+              <span>Facebook</span>
+              <span>(704) 555-0127</span>
+              <span>kristin@facebook.com</span>
+              <span>Åland Islands</span>
+              <button class="inactive">Inactive</button>
+            </li>
+          </ul>
+          <div class="table-footer">
+            <p class="show-data">
+              Showing data 1 to 8 of 256K entries
+            </p>
+            <ul class="pagination">
+              <li><</li>
+              <li class="btn-active">1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li class="points">...</li>
+              <li>40</li>
+              <li>></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
