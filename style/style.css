@@ -302,7 +302,7 @@ body ul {
     padding: 20px 10px;
   }
   .main .main-title {
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 20px;
   }
   .main .main-content {
@@ -310,6 +310,9 @@ body ul {
   }
 }
 @media screen and (max-width: 768px) {
+  .sidebar {
+    padding: 10px 20px;
+  }
   .sidebar .sidebar-nav {
     position: fixed;
     margin-top: 0;
@@ -341,7 +344,7 @@ body ul {
     padding-right: 0;
   }
   .main .main-content .table .table-header .table-title {
-    font-size: 20px;
+    font-size: 18px;
   }
   .main .main-content .table .table-content {
     overflow-x: auto;
